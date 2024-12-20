@@ -1,0 +1,65 @@
+.user {
+  max-width: 70vw;
+  margin: 0 auto;
+  padding: 1.5vw;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user h1 {
+  font-size: 2.5vw;
+  margin-bottom: 20px;
+  color: #472a16;
+  text-align: center;
+}
+
+.user div {
+  font-size: 1.5vw;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user h2 {
+  font-size: 2vw;
+  margin-top: 2.5vw;
+  margin-bottom: 1.5vw;
+  color: #472a16;
+  text-align: center;
+}
+
+.user ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.5vw;
+}
+
+.user li {
+  margin-bottom: 10px;
+  padding: 0.8vw;
+  background-color: #f9f6f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.user li:hover {
+  background-color: #e9e6e2;
+}
+
+.user a {
+  color: #472a16;
+  font-weight: bold;
+}
+
+.user a:hover {
+  text-decoration: underline;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #888;
+}

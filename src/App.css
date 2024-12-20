@@ -1,0 +1,16 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f9f6f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #472a16;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
