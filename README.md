@@ -1,26 +1,36 @@
-# Multi-Page React Application Using JSONPlaceholder API
+# Multi-Page React Application
 
 ## Project Description
 
-This application is a multi-page web application developed using React and the `react-router-dom` library. It interacts with the [JSONPlaceholder API], which provides fake data for testing and prototyping.
+This multi-page React application allows users to explore users and albums using the JSONPlaceholder API. The application leverages `react-router-dom` for navigation and provides a seamless experience for accessing detailed information about users and their albums.
 
 ### Key Features
 
-- **Multi-Page Navigation:** Utilizes `react-router-dom` to create various pages, such as:
-  - List of Posts
-  - View a specific post with comments
-  - List of Users
-  - List of Albums and Photos
-- **Interactive Interaction:** Users can view, add, and delete data using API methods.
+- **User Management:** View a list of users and navigate to detailed user profiles.
+- **Album Management:** View a list of albums and access individual album details.
+- **Dynamic Routing:** Utilizes URL parameters to fetch and display specific user or album data.
+- **404 Not Found Page:** Displays a custom "Not Found" page for invalid routes.
 
+## Pages
 
-## Technologies
+- **Users Page:** Displays a list of users fetched from the API.
+- **User Detail Page:** Displays detailed information about a specific user, including their albums.
+- **Albums Page:** Displays a list of albums available in the API.
+- **Album Detail Page:** Displays details of a specific album.
+- **404 Not Found Page:** A fallback page for any unknown routes.
+
+## Technologies Used
 
 - **React:** For building the user interface.
-- **react-router-dom:** For implementing multi-page navigation.
-- **JSONPlaceholder API:** For fetching data.
+- **react-router-dom:** For managing navigation and routing in the application.
+- **JSONPlaceholder API:** Provides fake data for users and albums.
 
 ## Installation and Setup
+
+### Prerequisites
+
+- Node.js (v12 or higher)
+- npm (v6 or higher)
 
 ### Installation Steps
 
