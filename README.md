@@ -9,7 +9,6 @@ This multi-page React application allows users to explore users and albums using
 - **User Management:** View a list of users and navigate to detailed user profiles.
 - **Album Management:** View a list of albums and access individual album details.
 - **Dynamic Routing:** Utilizes URL parameters to fetch and display specific user or album data.
-- **404 Not Found Page:** Displays a custom "Not Found" page for invalid routes.
 
 ## Pages
 
