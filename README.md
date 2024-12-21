@@ -18,10 +18,8 @@ This multi-page React application allows users to explore users and albums using
 - **Album Detail Page:** Displays details of a specific album.
 - **404 Not Found Page:** A fallback page for any unknown routes.
 
-  ```markdown
 # Application Structure
 
-```
 src/
 ├── pages/
 │   ├── album/
@@ -35,7 +33,6 @@ src/
 │   └── users/
 │       └── Users.jsx       # Component for listing all users
 └── App.jsx                 # The main application component where routing is set up
-```
 
 
 ## Technologies Used
