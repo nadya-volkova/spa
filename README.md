@@ -4,6 +4,8 @@
 
 This multi-page React application allows users to explore users and albums using the JSONPlaceholder API. The application leverages `react-router-dom` for navigation and provides a seamless experience for accessing detailed information about users and their albums.
 
+<img src="https://github.com/user-attachments/assets/9f52fe38-6cc0-489b-9db1-af110472a313" alt="SPA" width="600"/>
+
 ### Key Features
 
 - **User Management:** View a list of users and navigate to detailed user profiles.
