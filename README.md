@@ -18,6 +18,26 @@ This multi-page React application allows users to explore users and albums using
 - **Album Detail Page:** Displays details of a specific album.
 - **404 Not Found Page:** A fallback page for any unknown routes.
 
+  ```markdown
+# Application Structure
+
+```
+src/
+├── pages/
+│   ├── album/
+│   │   └── Album.jsx       # Component for displaying individual album details
+│   ├── albums/
+│   │   └── Albums.jsx      # Component for listing all albums
+│   ├── notFound/
+│   │   └── NotFound.jsx    # Component for displaying 404 errors
+│   ├── user/
+│   │   └── User.jsx        # Component for displaying individual user details
+│   └── users/
+│       └── Users.jsx       # Component for listing all users
+└── App.jsx                 # The main application component where routing is set up
+```
+
+
 ## Technologies Used
 
 - **React:** For building the user interface.
@@ -25,15 +45,6 @@ This multi-page React application allows users to explore users and albums using
 - **JSONPlaceholder API:** Provides fake data for users and albums.
 
 ## Installation and Setup
-
-### Prerequisites
-
-- Node.js (v12 or higher)
-- npm (v6 or higher)
-
-### Installation Steps
-
-1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-multi-page-app.git
-   cd react-multi-page-app
+  npm install
+  npm start
