@@ -17,23 +17,17 @@ This multi-page React application allows users to explore users and albums using
 - **Albums Page:** Displays a list of albums available in the API.
 - **Album Detail Page:** Displays details of a specific album.
 - **404 Not Found Page:** A fallback page for any unknown routes.
+  
+## Routing Overview
 
-# Application Structure
+The application uses `createBrowserRouter` to define the following routes:
 
-src/
-├── pages/
-│   ├── album/
-│   │   └── Album.jsx       # Component for displaying individual album details
-│   ├── albums/
-│   │   └── Albums.jsx      # Component for listing all albums
-│   ├── notFound/
-│   │   └── NotFound.jsx    # Component for displaying 404 errors
-│   ├── user/
-│   │   └── User.jsx        # Component for displaying individual user details
-│   └── users/
-│       └── Users.jsx       # Component for listing all users
-└── App.jsx                 # The main application component where routing is set up
-
+- `/` - Redirects to `/users`.
+- `/users` - Displays the list of users.
+- `/users/:userId` - Displays details for a specific user.
+- `/albums` - Displays the list of albums.
+- `/albums/:albumId` - Displays details for a specific album.
+- `*` - Catches all undefined routes and shows the "Not Found" page.
 
 ## Technologies Used
 
